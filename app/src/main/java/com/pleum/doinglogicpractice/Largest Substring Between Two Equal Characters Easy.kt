@@ -5,6 +5,8 @@ package com.pleum.doinglogicpractice
 fun main(){
     val s = "cbzxy"
     println("Length: "+maxLengthBetweenEqualCharacters(s))
+
+    println(s.chunked(3))
 }
 
 fun maxLengthBetweenEqualCharacters(s: String): Int {
